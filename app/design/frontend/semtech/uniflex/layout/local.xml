@@ -15,4 +15,13 @@
             </block>
         </reference>
     </checkout_cart_index>
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink"><name>recurring_profiles</name></action>
+            <!--<action method="addLink"><name>newsletter</name></action>-->
+            <action method="addLink"><name>billing_agreements</name></action>
+            <action method="addLink"><name>OAuth Customer Tokens</name></action>
+            <action method="addLink"><name>downloadable_products</name></action>
+        </reference>
+    </customer_account>
 </layout>
